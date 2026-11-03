@@ -5,7 +5,7 @@ Sistema basato su conoscenza che, per tre reti di bike sharing (Washington, Bost
 apprende a prevedere lo squilibrio orario (modelli supervisionati, k-means, HMM con EM), assegna le stazioni a 3 furgoni (CSP con ricerca locale)
 e ne pianifica il percorso (A*). La documentazione completa è in `docs/`.
 
-**Gruppo:** [nome cognome – matricola] · [aggiungere tutti i componenti]
+**Gruppo:** [Arianna Aulenta - 777808]
 
 ## Dati (non inclusi)
 Scaricare i file dei viaggi di **settembre 2026** dalle pagine «System Data» dei gestori e metterli in queste cartelle:
