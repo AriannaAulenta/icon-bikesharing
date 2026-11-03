@@ -1,0 +1,269 @@
+{
+ "dc": {
+  "res": {
+   "casuale": {
+    "split_mean": 0.06120960139173367,
+    "split_sd": 0.005359103522358226,
+    "seed_mean": 0.06902997517002649,
+    "seed_sd": 0.01317978042316085,
+    "pool_mean": 0.061209601391733655,
+    "pool_sd": 0.044120561644249004,
+    "n": 90
+   },
+   "persistenza": {
+    "split_mean": 0.3264192496805709,
+    "split_sd": 0.0265917847076293,
+    "seed_mean": 0.34354915517624507,
+    "seed_sd": 0.012139808136329679,
+    "pool_mean": 0.3264192496805709,
+    "pool_sd": 0.1546501885384779,
+    "n": 90
+   },
+   "KB (regole)": {
+    "split_mean": 0.6061205029202589,
+    "split_sd": 0.026491106005970332,
+    "seed_mean": 0.6300431543430961,
+    "seed_sd": 0.008458538718481932,
+    "pool_mean": 0.6061205029202589,
+    "pool_sd": 0.27967310025880887,
+    "n": 90
+   },
+   "HMM globale": {
+    "split_mean": 0.15935559417072223,
+    "split_sd": 0.00629532241632685,
+    "seed_mean": 0.20662239688931608,
+    "seed_sd": 0.04853709893450184,
+    "pool_mean": 0.15935559417072226,
+    "pool_sd": 0.1237268036416349,
+    "n": 90
+   },
+   "HMM per profilo (KB)": {
+    "split_mean": 0.44611347885476715,
+    "split_sd": 0.02271617149434306,
+    "seed_mean": 0.46348719416095213,
+    "seed_sd": 0.0005975643706858975,
+    "pool_mean": 0.44611347885476715,
+    "pool_sd": 0.22113616558544116,
+    "n": 90
+   },
+   "KB senza compensazione": {
+    "split_mean": 0.6477687286130327,
+    "split_sd": 0.011123647943974208,
+    "seed_mean": 0.6534036609852665,
+    "seed_sd": 0.009916609368276774,
+    "pool_mean": 0.6477687286130328,
+    "pool_sd": 0.24894907693994023,
+    "n": 90
+   },
+   "KB senza pesi": {
+    "split_mean": 0.606058463167218,
+    "split_sd": 0.028570217854504355,
+    "seed_mean": 0.6321838394553144,
+    "seed_sd": 0.003781050984235737,
+    "pool_mean": 0.606058463167218,
+    "pool_sd": 0.282141425829737,
+    "n": 90
+   },
+   "solo saldo medio": {
+    "split_mean": 0.6494501808093557,
+    "split_sd": 0.01931201212114939,
+    "seed_mean": 0.6710076628475891,
+    "seed_sd": 0.0046263191524499835,
+    "pool_mean": 0.6494501808093556,
+    "pool_sd": 0.25131059357186697,
+    "n": 90
+   }
+  },
+  "pair": {
+   "HMM per profilo (KB)>KB (regole)": 17,
+   "HMM per profilo (KB)>persistenza": 63,
+   "HMM per profilo (KB)>casuale": 89,
+   "HMM per profilo (KB)>HMM globale": 79,
+   "KB (regole)>solo saldo medio": 22,
+   "KB (regole)>KB senza compensazione": 19,
+   "KB (regole)>KB senza pesi": 14,
+   "solo saldo medio>KB (regole)": 51,
+   "solo saldo medio>persistenza": 85,
+   "solo saldo medio>HMM per profilo (KB)": 86
+  },
+  "n": 90
+ },
+ "bos": {
+  "res": {
+   "casuale": {
+    "split_mean": 0.09781911993756189,
+    "split_sd": 0.00995989182875871,
+    "seed_mean": 0.0864293731693916,
+    "seed_sd": 0.0049821707874917204,
+    "pool_mean": 0.0978191199375619,
+    "pool_sd": 0.05788209172718178,
+    "n": 90
+   },
+   "persistenza": {
+    "split_mean": 0.3187945883953739,
+    "split_sd": 0.025682784905999644,
+    "seed_mean": 0.3348426616385644,
+    "seed_sd": 0.0037619872946991705,
+    "pool_mean": 0.31879458839537383,
+    "pool_sd": 0.15478439409381767,
+    "n": 90
+   },
+   "KB (regole)": {
+    "split_mean": 0.5854468955400725,
+    "split_sd": 0.012544155777881413,
+    "seed_mean": 0.5852472137243562,
+    "seed_sd": 0.0051146876867872795,
+    "pool_mean": 0.5854468955400723,
+    "pool_sd": 0.22739625187785517,
+    "n": 90
+   },
+   "HMM globale": {
+    "split_mean": 0.1969383750563868,
+    "split_sd": 0.0029454533528222404,
+    "seed_mean": 0.19212845583079996,
+    "seed_sd": 0.009831877093008768,
+    "pool_mean": 0.1969383750563868,
+    "pool_sd": 0.11274753504281924,
+    "n": 90
+   },
+   "HMM per profilo (KB)": {
+    "split_mean": 0.38655993248031795,
+    "split_sd": 0.003998033424553867,
+    "seed_mean": 0.38480885209801635,
+    "seed_sd": 0.011516421761621006,
+    "pool_mean": 0.386559932480318,
+    "pool_sd": 0.2221652178974897,
+    "n": 90
+   },
+   "KB senza compensazione": {
+    "split_mean": 0.6462508007220632,
+    "split_sd": 0.02798823858196796,
+    "seed_mean": 0.611718006300085,
+    "seed_sd": 0.009593975972798034,
+    "pool_mean": 0.6462508007220633,
+    "pool_sd": 0.21681306347907964,
+    "n": 90
+   },
+   "KB senza pesi": {
+    "split_mean": 0.5922691923298372,
+    "split_sd": 0.011934423495939568,
+    "seed_mean": 0.5857165045038691,
+    "seed_sd": 0.005961051998524539,
+    "pool_mean": 0.5922691923298372,
+    "pool_sd": 0.22763448968961722,
+    "n": 90
+   },
+   "solo saldo medio": {
+    "split_mean": 0.6441193626777713,
+    "split_sd": 0.028017119474208006,
+    "seed_mean": 0.6202255516812092,
+    "seed_sd": 0.007313266710455902,
+    "pool_mean": 0.6441193626777713,
+    "pool_sd": 0.21701579319407674,
+    "n": 90
+   }
+  },
+  "pair": {
+   "HMM per profilo (KB)>KB (regole)": 6,
+   "HMM per profilo (KB)>persistenza": 62,
+   "HMM per profilo (KB)>casuale": 83,
+   "HMM per profilo (KB)>HMM globale": 69,
+   "KB (regole)>solo saldo medio": 19,
+   "KB (regole)>KB senza compensazione": 18,
+   "KB (regole)>KB senza pesi": 14,
+   "solo saldo medio>KB (regole)": 70,
+   "solo saldo medio>persistenza": 87,
+   "solo saldo medio>HMM per profilo (KB)": 88
+  },
+  "n": 90
+ },
+ "jc": {
+  "res": {
+   "casuale": {
+    "split_mean": 0.29455155880682293,
+    "split_sd": 0.016350664677124916,
+    "seed_mean": 0.2808987751160877,
+    "seed_sd": 0.02998148702314994,
+    "pool_mean": 0.29455155880682293,
+    "pool_sd": 0.11197754843012146,
+    "n": 90
+   },
+   "persistenza": {
+    "split_mean": 0.45296154227628577,
+    "split_sd": 0.02577742365749498,
+    "seed_mean": 0.45277319776807357,
+    "seed_sd": 0.005016454229292639,
+    "pool_mean": 0.45296154227628566,
+    "pool_sd": 0.2027893674631795,
+    "n": 90
+   },
+   "KB (regole)": {
+    "split_mean": 0.553256896101126,
+    "split_sd": 0.00852153169457954,
+    "seed_mean": 0.5684048977290871,
+    "seed_sd": 0.02072292829055441,
+    "pool_mean": 0.553256896101126,
+    "pool_sd": 0.2409033025414622,
+    "n": 90
+   },
+   "HMM globale": {
+    "split_mean": 0.27974745776248006,
+    "split_sd": 0.029369098635916573,
+    "seed_mean": 0.3427069762324137,
+    "seed_sd": 0.0691249779216497,
+    "pool_mean": 0.27974745776248,
+    "pool_sd": 0.16563703208257508,
+    "n": 90
+   },
+   "HMM per profilo (KB)": {
+    "split_mean": 0.5833298460440363,
+    "split_sd": 0.024632684741907187,
+    "seed_mean": 0.5952668496143555,
+    "seed_sd": 0.00418002406844818,
+    "pool_mean": 0.5833298460440363,
+    "pool_sd": 0.26851533555385365,
+    "n": 90
+   },
+   "KB senza compensazione": {
+    "split_mean": 0.6478738458047152,
+    "split_sd": 0.016667669651101804,
+    "seed_mean": 0.6703154442605773,
+    "seed_sd": 0.0045661644852385466,
+    "pool_mean": 0.6478738458047152,
+    "pool_sd": 0.2516592475575864,
+    "n": 90
+   },
+   "KB senza pesi": {
+    "split_mean": 0.5711133769993505,
+    "split_sd": 0.03646506900329046,
+    "seed_mean": 0.5739405317051731,
+    "seed_sd": 0.01701599373896129,
+    "pool_mean": 0.5711133769993504,
+    "pool_sd": 0.2476567263683975,
+    "n": 90
+   },
+   "solo saldo medio": {
+    "split_mean": 0.6651928742735161,
+    "split_sd": 0.020964900383516206,
+    "seed_mean": 0.677854047051254,
+    "seed_sd": 0.0027786346747464656,
+    "pool_mean": 0.6651928742735161,
+    "pool_sd": 0.2407968663755493,
+    "n": 90
+   }
+  },
+  "pair": {
+   "HMM per profilo (KB)>KB (regole)": 45,
+   "HMM per profilo (KB)>persistenza": 70,
+   "HMM per profilo (KB)>casuale": 73,
+   "HMM per profilo (KB)>HMM globale": 81,
+   "KB (regole)>solo saldo medio": 18,
+   "KB (regole)>KB senza compensazione": 19,
+   "KB (regole)>KB senza pesi": 32,
+   "solo saldo medio>KB (regole)": 67,
+   "solo saldo medio>persistenza": 83,
+   "solo saldo medio>HMM per profilo (KB)": 69
+  },
+  "n": 90
+ }
+}

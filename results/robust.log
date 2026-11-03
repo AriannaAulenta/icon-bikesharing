@@ -1,0 +1,270 @@
+######## dc default
+
+[dc] scenari validi: 30
+  casuale        copertura/oracolo = 0.055 ± 0.038
+  persistenza    copertura/oracolo = 0.356 ± 0.148
+  KB (regole)    copertura/oracolo = 0.636 ± 0.280
+  HMM globale    copertura/oracolo = 0.153 ± 0.110
+  HMM per profilo (KB) copertura/oracolo = 0.463 ± 0.221
+  KB senza compensazione copertura/oracolo = 0.661 ± 0.259
+  KB senza pesi  copertura/oracolo = 0.636 ± 0.288
+  solo saldo medio copertura/oracolo = 0.672 ± 0.258
+  KB (regole) > solo saldo medio in 8/30; > senza compensazione in 10/30; > senza pesi in 5/30
+  HMM per profilo (KB) > KB in 5/30 scenari; > persistenza in 22/30; > casuale in 30/30; > HMM globale in 27/30
+  A*: 180 percorsi, fermate medie 7.5, tempo di viaggio medio 29.3 min, nodi espansi A* 232 vs senza euristica 615, costo identico nel 100% dei casi
+######## jc f1s0 test=1-10 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.2589±0.0337 | baseline per ora 1.3289±0.0336 | differenza media 0.0700 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=28 K=2 (BIC per K: {2: 26073, 3: 26271, 4: 28286, 5: 26720})
+  profilo p1: stazioni=14 K=2 (BIC per K: {2: 16512, 3: 16713, 4: 17056, 5: 17234})
+  profilo p2: stazioni=21 K=3 (BIC per K: {2: 26627, 3: 26330, 4: 27435, 5: 26701})
+  profilo p3: stazioni=35 K=2 (BIC per K: {2: 42797, 3: 42892, 4: 43897, 5: 43393})
+  profilo p4: stazioni=10 K=3 (BIC per K: {2: 12113, 3: 12074, 4: 12581, 5: 12537})
+[jc] log-loss a un passo giorni 21-30: HMM per profilo 1.2157±0.0521 | baseline per profilo e ora 1.2578±0.0622 | HMM migliore in 10/10 giorni
+
+[jc] scenari validi: 30
+  casuale        copertura/oracolo = 0.280 ± 0.113
+  persistenza    copertura/oracolo = 0.427 ± 0.223
+  KB (regole)    copertura/oracolo = 0.549 ± 0.229
+  HMM globale    copertura/oracolo = 0.312 ± 0.180
+  HMM per profilo (KB) copertura/oracolo = 0.595 ± 0.262
+  KB senza compensazione copertura/oracolo = 0.646 ± 0.263
+  KB senza pesi  copertura/oracolo = 0.592 ± 0.256
+  solo saldo medio copertura/oracolo = 0.675 ± 0.242
+  KB (regole) > solo saldo medio in 4/30; > senza compensazione in 5/30; > senza pesi in 9/30
+  HMM per profilo (KB) > KB in 14/30 scenari; > persistenza in 23/30; > casuale in 26/30; > HMM globale in 26/30
+  A*: 180 percorsi, fermate medie 7.9, tempo di viaggio medio 23.6 min, nodi espansi A* 277 vs senza euristica 744, costo identico nel 100% dei casi
+[jc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.000 ± 0.002 (ricerca locale >= goloso in 30/30)
+######## jc f2s0 test=11-20 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.2682±0.0414 | baseline per ora 1.3539±0.0585 | differenza media 0.0857 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=10 K=3 (BIC per K: {2: 12127, 3: 12126, 4: 12666, 5: 12649})
+  profilo p1: stazioni=32 K=2 (BIC per K: {2: 31386, 3: 31541, 4: 33586, 5: 32009})
+  profilo p2: stazioni=43 K=2 (BIC per K: {2: 51723, 3: 51863, 4: 52868, 5: 52388})
+  profilo p3: stazioni=23 K=3 (BIC per K: {2: 27678, 3: 27105, 4: 28735, 5: 27563})
+[jc] log-loss a un passo giorni 21-30: HMM per profilo 1.2315±0.0588 | baseline per profilo e ora 1.2969±0.0833 | HMM migliore in 10/10 giorni
+
+[jc] scenari validi: 30
+  casuale        copertura/oracolo = 0.291 ± 0.109
+  persistenza    copertura/oracolo = 0.479 ± 0.190
+  KB (regole)    copertura/oracolo = 0.547 ± 0.250
+  HMM globale    copertura/oracolo = 0.255 ± 0.166
+  HMM per profilo (KB) copertura/oracolo = 0.555 ± 0.264
+  KB senza compensazione copertura/oracolo = 0.633 ± 0.234
+  KB senza pesi  copertura/oracolo = 0.529 ± 0.253
+  solo saldo medio copertura/oracolo = 0.641 ± 0.229
+  KB (regole) > solo saldo medio in 9/30; > senza compensazione in 9/30; > senza pesi in 14/30
+  HMM per profilo (KB) > KB in 15/30 scenari; > persistenza in 21/30; > casuale in 23/30; > HMM globale in 29/30
+  A*: 180 percorsi, fermate medie 7.9, tempo di viaggio medio 24.3 min, nodi espansi A* 287 vs senza euristica 765, costo identico nel 100% dei casi
+[jc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.000 ± 0.000 (ricerca locale >= goloso in 30/30)
+######## jc s1 test=21-30 seed=1
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.1855±0.0987 | baseline per ora 1.2646±0.0749 | differenza media 0.0791 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=36 K=3 (BIC per K: {2: 46059, 3: 44942, 4: 45757, 5: 45217})
+  profilo p1: stazioni=17 K=3 (BIC per K: {2: 22904, 3: 22802, 4: 23121, 5: 23235})
+  profilo p2: stazioni=9 K=3 (BIC per K: {2: 11462, 3: 11318, 4: 11498, 5: 11826})
+  profilo p3: stazioni=16 K=2 (BIC per K: {2: 19570, 3: 19602, 4: 19948, 5: 20208})
+  profilo p4: stazioni=30 K=3 (BIC per K: {2: 32075, 3: 30108, 4: 31036, 5: 30585})
+[jc] log-loss a un passo giorni 21-30: HMM per profilo 1.1471±0.0694 | baseline per profilo e ora 1.1913±0.0440 | HMM migliore in 10/10 giorni
+
+[jc] scenari validi: 30
+  casuale        copertura/oracolo = 0.253 ± 0.120
+  persistenza    copertura/oracolo = 0.448 ± 0.203
+  KB (regole)    copertura/oracolo = 0.591 ± 0.213
+  HMM globale    copertura/oracolo = 0.411 ± 0.179
+  HMM per profilo (KB) copertura/oracolo = 0.592 ± 0.275
+  KB senza compensazione copertura/oracolo = 0.671 ± 0.261
+  KB senza pesi  copertura/oracolo = 0.559 ± 0.225
+  solo saldo medio copertura/oracolo = 0.675 ± 0.260
+  KB (regole) > solo saldo medio in 6/30; > senza compensazione in 9/30; > senza pesi in 14/30
+  HMM per profilo (KB) > KB in 13/30 scenari; > persistenza in 21/30; > casuale in 26/30; > HMM globale in 20/30
+  A*: 180 percorsi, fermate medie 8.0, tempo di viaggio medio 23.4 min, nodi espansi A* 277 vs senza euristica 759, costo identico nel 100% dei casi
+[jc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.001 ± 0.004 (ricerca locale >= goloso in 30/30)
+######## jc s2 test=21-30 seed=2
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.1777±0.1057 | baseline per ora 1.2646±0.0749 | differenza media 0.0869 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=30 K=2 (BIC per K: {2: 29824, 3: 31640, 4: 30490, 5: 30530})
+  profilo p1: stazioni=9 K=2 (BIC per K: {2: 11240, 3: 11295, 4: 11524, 5: 11820})
+  profilo p2: stazioni=17 K=2 (BIC per K: {2: 22492, 3: 22878, 4: 23137, 5: 23275})
+  profilo p3: stazioni=36 K=2 (BIC per K: {2: 44281, 3: 45089, 4: 45915, 5: 45141})
+  profilo p4: stazioni=16 K=2 (BIC per K: {2: 19335, 3: 19653, 4: 19939, 5: 20085})
+[jc] log-loss a un passo giorni 21-30: HMM per profilo 1.1384±0.0786 | baseline per profilo e ora 1.1913±0.0440 | HMM migliore in 10/10 giorni
+
+[jc] scenari validi: 30
+  casuale        copertura/oracolo = 0.277 ± 0.114
+  persistenza    copertura/oracolo = 0.458 ± 0.177
+  KB (regole)    copertura/oracolo = 0.551 ± 0.237
+  HMM globale    copertura/oracolo = 0.345 ± 0.206
+  HMM per profilo (KB) copertura/oracolo = 0.593 ± 0.295
+  KB senza compensazione copertura/oracolo = 0.675 ± 0.257
+  KB senza pesi  copertura/oracolo = 0.570 ± 0.220
+  solo saldo medio copertura/oracolo = 0.679 ± 0.258
+  KB (regole) > solo saldo medio in 4/30; > senza compensazione in 4/30; > senza pesi in 7/30
+  HMM per profilo (KB) > KB in 14/30 scenari; > persistenza in 22/30; > casuale in 24/30; > HMM globale in 24/30
+  A*: 180 percorsi, fermate medie 7.9, tempo di viaggio medio 23.3 min, nodi espansi A* 253 vs senza euristica 733, costo identico nel 100% dei casi
+[jc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.002 ± 0.007 (ricerca locale >= goloso in 30/30)
+######## bos f1s0 test=1-10 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.1810±0.0331 | baseline per ora 1.2494±0.0362 | differenza media 0.0683 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=111 K=5 (BIC per K: {2: 131219, 3: 128783, 4: 134346, 5: 128304})
+  profilo p1: stazioni=46 K=3 (BIC per K: {2: 50123, 3: 49639, 4: 51140, 5: 49881})
+  profilo p2: stazioni=271 K=5 (BIC per K: {2: 257205, 3: 252174, 4: 268253, 5: 251100})
+  profilo p3: stazioni=193 K=3 (BIC per K: {2: 220520, 3: 219181, 4: 224633, 5: 219983})
+[bos] log-loss a un passo giorni 21-30: HMM per profilo 1.1476±0.0382 | baseline per profilo e ora 1.2042±0.0451 | HMM migliore in 10/10 giorni
+
+[bos] scenari validi: 30
+  casuale        copertura/oracolo = 0.109 ± 0.053
+  persistenza    copertura/oracolo = 0.332 ± 0.168
+  KB (regole)    copertura/oracolo = 0.577 ± 0.239
+  HMM globale    copertura/oracolo = 0.199 ± 0.125
+  HMM per profilo (KB) copertura/oracolo = 0.383 ± 0.214
+  KB senza compensazione copertura/oracolo = 0.651 ± 0.211
+  KB senza pesi  copertura/oracolo = 0.595 ± 0.246
+  solo saldo medio copertura/oracolo = 0.646 ± 0.219
+  KB (regole) > solo saldo medio in 5/30; > senza compensazione in 4/30; > senza pesi in 3/30
+  HMM per profilo (KB) > KB in 1/30 scenari; > persistenza in 21/30; > casuale in 29/30; > HMM globale in 23/30
+  A*: 180 percorsi, fermate medie 7.1, tempo di viaggio medio 22.9 min, nodi espansi A* 217 vs senza euristica 510, costo identico nel 100% dei casi
+[bos] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.007 ± 0.023 (ricerca locale >= goloso in 30/30)
+######## bos f2s0 test=11-20 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.1844±0.0618 | baseline per ora 1.2666±0.0578 | differenza media 0.0823 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=189 K=3 (BIC per K: {2: 212498, 3: 211065, 4: 215628, 5: 211843})
+  profilo p1: stazioni=280 K=5 (BIC per K: {2: 268587, 3: 263856, 4: 280539, 5: 263019})
+  profilo p2: stazioni=106 K=5 (BIC per K: {2: 124431, 3: 121894, 4: 127717, 5: 121671})
+  profilo p3: stazioni=46 K=3 (BIC per K: {2: 49947, 3: 49550, 4: 51045, 5: 49928})
+[bos] log-loss a un passo giorni 21-30: HMM per profilo 1.1554±0.0622 | baseline per profilo e ora 1.2259±0.0626 | HMM migliore in 10/10 giorni
+
+[bos] scenari validi: 30
+  casuale        copertura/oracolo = 0.094 ± 0.053
+  persistenza    copertura/oracolo = 0.289 ± 0.141
+  KB (regole)    copertura/oracolo = 0.600 ± 0.202
+  HMM globale    copertura/oracolo = 0.198 ± 0.107
+  HMM per profilo (KB) copertura/oracolo = 0.385 ± 0.215
+  KB senza compensazione copertura/oracolo = 0.671 ± 0.194
+  KB senza pesi  copertura/oracolo = 0.602 ± 0.202
+  solo saldo medio copertura/oracolo = 0.671 ± 0.194
+  KB (regole) > solo saldo medio in 2/30; > senza compensazione in 2/30; > senza pesi in 6/30
+  HMM per profilo (KB) > KB in 4/30 scenari; > persistenza in 22/30; > casuale in 27/30; > HMM globale in 24/30
+  A*: 180 percorsi, fermate medie 7.2, tempo di viaggio medio 22.8 min, nodi espansi A* 227 vs senza euristica 520, costo identico nel 100% dei casi
+[bos] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.010 ± 0.025 (ricerca locale >= goloso in 30/30)
+######## bos s1 test=21-30 seed=1
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.0686±0.1695 | baseline per ora 1.1600±0.1251 | differenza media 0.0914 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=284 K=3 (BIC per K: {2: 308399, 3: 285198, 4: 290821, 5: 285219})
+  profilo p1: stazioni=45 K=3 (BIC per K: {2: 51674, 3: 51262, 4: 51520, 5: 51652})
+  profilo p2: stazioni=185 K=3 (BIC per K: {2: 224346, 3: 220754, 4: 222519, 5: 221407})
+  profilo p3: stazioni=107 K=5 (BIC per K: {2: 134280, 3: 130759, 4: 132119, 5: 130401})
+[bos] log-loss a un passo giorni 21-30: HMM per profilo 1.0378±0.1390 | baseline per profilo e ora 1.1110±0.0969 | HMM migliore in 10/10 giorni
+
+[bos] scenari validi: 30
+  casuale        copertura/oracolo = 0.088 ± 0.061
+  persistenza    copertura/oracolo = 0.331 ± 0.149
+  KB (regole)    copertura/oracolo = 0.586 ± 0.254
+  HMM globale    copertura/oracolo = 0.182 ± 0.110
+  HMM per profilo (KB) copertura/oracolo = 0.392 ± 0.228
+  KB senza compensazione copertura/oracolo = 0.601 ± 0.232
+  KB senza pesi  copertura/oracolo = 0.591 ± 0.250
+  solo saldo medio copertura/oracolo = 0.617 ± 0.253
+  KB (regole) > solo saldo medio in 12/30; > senza compensazione in 14/30; > senza pesi in 3/30
+  HMM per profilo (KB) > KB in 1/30 scenari; > persistenza in 19/30; > casuale in 29/30; > HMM globale in 21/30
+  A*: 180 percorsi, fermate medie 7.0, tempo di viaggio medio 24.1 min, nodi espansi A* 237 vs senza euristica 524, costo identico nel 100% dei casi
+[bos] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.002 ± 0.006 (ricerca locale >= goloso in 30/30)
+######## bos s2 test=21-30 seed=2
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 1.0545±0.1714 | baseline per ora 1.1600±0.1251 | differenza media 0.1055 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=45 K=2 (BIC per K: {2: 51381, 3: 51474, 4: 51641, 5: 51584})
+  profilo p1: stazioni=284 K=2 (BIC per K: {2: 284479, 3: 298498, 4: 287109, 5: 285342})
+  profilo p2: stazioni=185 K=2 (BIC per K: {2: 220087, 3: 222033, 4: 222861, 5: 221184})
+  profilo p3: stazioni=107 K=2 (BIC per K: {2: 130376, 3: 133133, 4: 132292, 5: 131063})
+[bos] log-loss a un passo giorni 21-30: HMM per profilo 1.0337±0.1432 | baseline per profilo e ora 1.1110±0.0969 | HMM migliore in 10/10 giorni
+
+[bos] scenari validi: 30
+  casuale        copertura/oracolo = 0.081 ± 0.045
+  persistenza    copertura/oracolo = 0.338 ± 0.160
+  KB (regole)    copertura/oracolo = 0.590 ± 0.248
+  HMM globale    copertura/oracolo = 0.201 ± 0.166
+  HMM per profilo (KB) copertura/oracolo = 0.372 ± 0.243
+  KB senza compensazione copertura/oracolo = 0.618 ± 0.251
+  KB senza pesi  copertura/oracolo = 0.588 ± 0.251
+  solo saldo medio copertura/oracolo = 0.629 ± 0.263
+  KB (regole) > solo saldo medio in 8/30; > senza compensazione in 10/30; > senza pesi in 6/30
+  HMM per profilo (KB) > KB in 0/30 scenari; > persistenza in 17/30; > casuale in 27/30; > HMM globale in 22/30
+  A*: 180 percorsi, fermate medie 7.1, tempo di viaggio medio 23.3 min, nodi espansi A* 241 vs senza euristica 534, costo identico nel 100% dei casi
+[bos] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.005 ± 0.013 (ricerca locale >= goloso in 30/30)
+######## dc f1s0 test=1-10 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 0.9541±0.0100 | baseline per ora 1.0796±0.0175 | differenza media 0.1255 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=494 K=5 (BIC per K: {2: 328809, 3: 327802, 4: 332246, 5: 326065})
+  profilo p1: stazioni=128 K=5 (BIC per K: {2: 143415, 3: 139938, 4: 147212, 5: 139886})
+  profilo p2: stazioni=48 K=3 (BIC per K: {2: 51507, 3: 51096, 4: 52813, 5: 51566})
+  profilo p3: stazioni=195 K=5 (BIC per K: {2: 225410, 3: 223848, 4: 229206, 5: 223484})
+[dc] log-loss a un passo giorni 21-30: HMM per profilo 0.9214±0.0219 | baseline per profilo e ora 1.0130±0.0373 | HMM migliore in 10/10 giorni
+
+[dc] scenari validi: 30
+  casuale        copertura/oracolo = 0.062 ± 0.051
+  persistenza    copertura/oracolo = 0.318 ± 0.163
+  KB (regole)    copertura/oracolo = 0.585 ± 0.282
+  HMM globale    copertura/oracolo = 0.166 ± 0.131
+  HMM per profilo (KB) copertura/oracolo = 0.455 ± 0.219
+  KB senza compensazione copertura/oracolo = 0.642 ± 0.238
+  KB senza pesi  copertura/oracolo = 0.580 ± 0.276
+  solo saldo medio copertura/oracolo = 0.636 ± 0.231
+  KB (regole) > solo saldo medio in 6/30; > senza compensazione in 4/30; > senza pesi in 7/30
+  HMM per profilo (KB) > KB in 8/30 scenari; > persistenza in 21/30; > casuale in 30/30; > HMM globale in 26/30
+  A*: 180 percorsi, fermate medie 7.5, tempo di viaggio medio 29.6 min, nodi espansi A* 243 vs senza euristica 619, costo identico nel 100% dei casi
+[dc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.008 ± 0.029 (ricerca locale >= goloso in 30/30)
+######## dc f2s0 test=11-20 seed=0
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 0.9607±0.0223 | baseline per ora 1.0944±0.0320 | differenza media 0.1337 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=480 K=5 (BIC per K: {2: 321211, 3: 319937, 4: 324227, 5: 318317})
+  profilo p1: stazioni=199 K=5 (BIC per K: {2: 225793, 3: 224263, 4: 230806, 5: 224211})
+  profilo p2: stazioni=58 K=3 (BIC per K: {2: 62472, 3: 62076, 4: 63905, 5: 62519})
+  profilo p3: stazioni=128 K=3 (BIC per K: {2: 133741, 3: 129418, 4: 136808, 5: 129638})
+[dc] log-loss a un passo giorni 21-30: HMM per profilo 0.9329±0.0324 | baseline per profilo e ora 1.0341±0.0523 | HMM migliore in 10/10 giorni
+
+[dc] scenari validi: 30
+  casuale        copertura/oracolo = 0.066 ± 0.043
+  persistenza    copertura/oracolo = 0.305 ± 0.153
+  KB (regole)    copertura/oracolo = 0.597 ± 0.285
+  HMM globale    copertura/oracolo = 0.159 ± 0.133
+  HMM per profilo (KB) copertura/oracolo = 0.420 ± 0.229
+  KB senza compensazione copertura/oracolo = 0.641 ± 0.258
+  KB senza pesi  copertura/oracolo = 0.602 ± 0.289
+  solo saldo medio copertura/oracolo = 0.641 ± 0.270
+  KB (regole) > solo saldo medio in 8/30; > senza compensazione in 5/30; > senza pesi in 2/30
+  HMM per profilo (KB) > KB in 4/30 scenari; > persistenza in 20/30; > casuale in 29/30; > HMM globale in 26/30
+  A*: 180 percorsi, fermate medie 7.5, tempo di viaggio medio 30.0 min, nodi espansi A* 260 vs senza euristica 642, costo identico nel 100% dei casi
+[dc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.013 ± 0.032 (ricerca locale >= goloso in 30/30)
+######## dc s1 test=21-30 seed=1
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 0.8961±0.0620 | baseline per ora 1.0195±0.0614 | differenza media 0.1234 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=38 K=2 (BIC per K: {2: 41310, 3: 41331, 4: 41522, 5: 41774})
+  profilo p1: stazioni=218 K=5 (BIC per K: {2: 261188, 3: 251750, 4: 253207, 5: 251103})
+  profilo p2: stazioni=111 K=5 (BIC per K: {2: 128979, 3: 126164, 4: 127525, 5: 125413})
+  profilo p3: stazioni=498 K=5 (BIC per K: {2: 364167, 3: 351155, 4: 357596, 5: 351087})
+[dc] log-loss a un passo giorni 21-30: HMM per profilo 0.8626±0.0572 | baseline per profilo e ora 0.9533±0.0553 | HMM migliore in 10/10 giorni
+
+[dc] scenari validi: 30
+  casuale        copertura/oracolo = 0.082 ± 0.062
+  persistenza    copertura/oracolo = 0.332 ± 0.140
+  KB (regole)    copertura/oracolo = 0.634 ± 0.272
+  HMM globale    copertura/oracolo = 0.219 ± 0.147
+  HMM per profilo (KB) copertura/oracolo = 0.464 ± 0.229
+  KB senza compensazione copertura/oracolo = 0.658 ± 0.258
+  KB senza pesi  copertura/oracolo = 0.631 ± 0.288
+  solo saldo medio copertura/oracolo = 0.675 ± 0.247
+  KB (regole) > solo saldo medio in 8/30; > senza compensazione in 12/30; > senza pesi in 7/30
+  HMM per profilo (KB) > KB in 3/30 scenari; > persistenza in 19/30; > casuale in 28/30; > HMM globale in 24/30
+  A*: 180 percorsi, fermate medie 7.4, tempo di viaggio medio 28.9 min, nodi espansi A* 225 vs senza euristica 594, costo identico nel 100% dei casi
+[dc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.023 ± 0.068 (ricerca locale >= goloso in 30/30)
+######## dc s2 test=21-30 seed=2
+  K scelto=3  log-loss a un passo, giorni 21-30: HMM 0.8902±0.0614 | baseline per ora 1.0195±0.0614 | differenza media 0.1293 (positiva = HMM migliore; HMM migliore in 10/10 giorni)
+  profilo p0: stazioni=117 K=2 (BIC per K: {2: 127210, 3: 130326, 4: 130567, 5: 128932})
+  profilo p1: stazioni=43 K=2 (BIC per K: {2: 47045, 3: 47179, 4: 47269, 5: 47327})
+  profilo p2: stazioni=211 K=2 (BIC per K: {2: 241247, 3: 245523, 4: 248387, 5: 243465})
+  profilo p3: stazioni=494 K=5 (BIC per K: {2: 351668, 3: 374870, 4: 352412, 5: 351638})
+[dc] log-loss a un passo giorni 21-30: HMM per profilo 0.8624±0.0577 | baseline per profilo e ora 0.9562±0.0554 | HMM migliore in 10/10 giorni
+
+[dc] scenari validi: 30
+  casuale        copertura/oracolo = 0.070 ± 0.045
+  persistenza    copertura/oracolo = 0.343 ± 0.138
+  KB (regole)    copertura/oracolo = 0.620 ± 0.275
+  HMM globale    copertura/oracolo = 0.248 ± 0.161
+  HMM per profilo (KB) copertura/oracolo = 0.463 ± 0.246
+  KB senza compensazione copertura/oracolo = 0.642 ± 0.249
+  KB senza pesi  copertura/oracolo = 0.629 ± 0.286
+  solo saldo medio copertura/oracolo = 0.666 ± 0.253
+  KB (regole) > solo saldo medio in 5/30; > senza compensazione in 9/30; > senza pesi in 5/30
+  HMM per profilo (KB) > KB in 1/30 scenari; > persistenza in 20/30; > casuale in 29/30; > HMM globale in 25/30
+  A*: 180 percorsi, fermate medie 7.6, tempo di viaggio medio 29.3 min, nodi espansi A* 246 vs senza euristica 638, costo identico nel 100% dei casi
+[dc] 30 istanze | violazioni dei vincoli nella soluzione: 0 (istanze con violazioni: 0) | obiettivo ricerca locale / goloso = 1.033 ± 0.070 (ricerca locale >= goloso in 30/30)
+######## FINE

@@ -1,0 +1,91 @@
+######## jc r01 raggio=0.1 qalto=0.85 qmedio=0.65
+
+[jc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.673 ± 0.257
+  KB senza compensazione copertura/oracolo = 0.684 ± 0.248
+  solo saldo medio copertura/oracolo = 0.678 ± 0.261
+######## jc r02 raggio=0.2 qalto=0.85 qmedio=0.65
+
+[jc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.652 ± 0.276
+  KB senza compensazione copertura/oracolo = 0.684 ± 0.248
+  solo saldo medio copertura/oracolo = 0.678 ± 0.261
+######## jc r08 raggio=0.8 qalto=0.85 qmedio=0.65
+
+[jc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.411 ± 0.200
+  KB senza compensazione copertura/oracolo = 0.684 ± 0.248
+  solo saldo medio copertura/oracolo = 0.678 ± 0.261
+######## jc q95 raggio=0.4 qalto=0.95 qmedio=0.85
+
+[jc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.633 ± 0.271
+  KB senza compensazione copertura/oracolo = 0.638 ± 0.279
+  solo saldo medio copertura/oracolo = 0.678 ± 0.261
+######## jc q70 raggio=0.4 qalto=0.70 qmedio=0.50
+
+[jc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.568 ± 0.225
+  KB senza compensazione copertura/oracolo = 0.685 ± 0.246
+  solo saldo medio copertura/oracolo = 0.678 ± 0.261
+######## bos r01 raggio=0.1 qalto=0.85 qmedio=0.65
+
+[bos] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.624 ± 0.250
+  KB senza compensazione copertura/oracolo = 0.618 ± 0.243
+  solo saldo medio copertura/oracolo = 0.626 ± 0.249
+######## bos r02 raggio=0.2 qalto=0.85 qmedio=0.65
+
+[bos] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.624 ± 0.249
+  KB senza compensazione copertura/oracolo = 0.618 ± 0.243
+  solo saldo medio copertura/oracolo = 0.626 ± 0.249
+######## bos r08 raggio=0.8 qalto=0.85 qmedio=0.65
+
+[bos] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.339 ± 0.165
+  KB senza compensazione copertura/oracolo = 0.618 ± 0.243
+  solo saldo medio copertura/oracolo = 0.626 ± 0.249
+######## bos q95 raggio=0.4 qalto=0.95 qmedio=0.85
+
+[bos] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.581 ± 0.238
+  KB senza compensazione copertura/oracolo = 0.614 ± 0.247
+  solo saldo medio copertura/oracolo = 0.626 ± 0.249
+######## bos q70 raggio=0.4 qalto=0.70 qmedio=0.50
+
+[bos] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.581 ± 0.244
+  KB senza compensazione copertura/oracolo = 0.618 ± 0.243
+  solo saldo medio copertura/oracolo = 0.626 ± 0.249
+######## dc r01 raggio=0.1 qalto=0.85 qmedio=0.65
+
+[dc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.637 ± 0.253
+  KB senza compensazione copertura/oracolo = 0.639 ± 0.246
+  solo saldo medio copertura/oracolo = 0.662 ± 0.253
+######## dc r02 raggio=0.2 qalto=0.85 qmedio=0.65
+
+[dc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.641 ± 0.250
+  KB senza compensazione copertura/oracolo = 0.639 ± 0.246
+  solo saldo medio copertura/oracolo = 0.662 ± 0.253
+######## dc r08 raggio=0.8 qalto=0.85 qmedio=0.65
+
+[dc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.464 ± 0.240
+  KB senza compensazione copertura/oracolo = 0.639 ± 0.246
+  solo saldo medio copertura/oracolo = 0.662 ± 0.253
+######## dc q95 raggio=0.4 qalto=0.95 qmedio=0.85
+
+[dc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.630 ± 0.271
+  KB senza compensazione copertura/oracolo = 0.641 ± 0.244
+  solo saldo medio copertura/oracolo = 0.662 ± 0.253
+######## dc q70 raggio=0.4 qalto=0.70 qmedio=0.50
+
+[dc] scenari validi: 30
+  KB (regole)    copertura/oracolo = 0.617 ± 0.273
+  KB senza compensazione copertura/oracolo = 0.640 ± 0.243
+  solo saldo medio copertura/oracolo = 0.662 ± 0.253
+######## FINE

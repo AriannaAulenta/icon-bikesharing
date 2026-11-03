@@ -1,0 +1,10 @@
+# dati dei viaggi (non ridistribuire: vedi licenze dei gestori)
+data/*
+!data/.gitkeep
+# file generati, si ricreano con gli script
+kb/generated/*
+!kb/generated/.gitkeep
+data/proc/
+*.pkl
+*.npz
+__pycache__/
